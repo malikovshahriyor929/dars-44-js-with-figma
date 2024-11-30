@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+svg,
+i,
+button {
+  cursor: pointer;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+.swper{
+  display: none !important;
+}
+@media(max-width:500px){
+  .swper{
+    display: block !important;
+  }
+}
+.container2 {
+  width: 95%;
+  margin: 0 auto;
+}
+@media (min-width: 1400px) {
+  .container2 {
+    width: 1350px;
+    margin: 0 auto;
+  }
+}
